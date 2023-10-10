@@ -1,6 +1,7 @@
 # processing_ai
 Number recognition AI (based on neural network) done in Processing IDE with Java.
 Users can teach computer to recognize number.
+VIDEO of the program: https://youtu.be/7vR9xXcoaBU
 
 # Installation Guide
 ## Download Processing IDE
