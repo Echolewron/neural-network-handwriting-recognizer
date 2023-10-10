@@ -22,7 +22,7 @@ To do so:
 6. Draw a number and press 'Enter' for program to show you what it recognizes the number to be.
 
 ## Controls
-E : Erase screen
-L : Enter or exit "Learning Mode"
-'Enter' : In "Learning Mode" it will use data provided to learn. In Non-"Learning Mode" it will try to recognize the number currently on drawn on the screen.
-'0-9' : Tells computer which number you drew on the screen when in "Learning Mode"
+- E : Erase screen
+- L : Enter or exit "Learning Mode"
+- 'Enter' : In "Learning Mode" it will use data provided to learn. In Non-"Learning Mode" it will try to recognize the number currently on drawn on the screen.
+- '0-9' : Tells computer which number you drew on the screen when in "Learning Mode"
