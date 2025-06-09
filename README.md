@@ -1,29 +1,44 @@
 # processing_ai
-Number recognition AI (based on neural network) done in Processing IDE with Java.
-Users can teach computer to recognize number.
-VIDEO of the program: https://youtu.be/7vR9xXcoaBU
 
-# Installation Guide
-## Download Processing IDE
-Processing IDE is a program that provides ability to code 2D graphics. Only available tools that this IDE provides is drawing circles, rectangles, triangles, and individual pixels of any size and color. From there, any graphics can be coded, even 3D if one really wants.
-You can download IDE on official website: https://processing.org/download
+Number recognition AI (based on a neural network) built in the Processing IDE with Java.  
+Users can teach the computer to recognize numbers.  
+Watch the video demo: https://youtu.be/uyvJBrU3ftQ
 
-## Running the code
-After downloading, open Recog.pde file with Processing IDE or open the IDE and paste the code from Recognition.java file.
+![Number Recognition AI DEMO animation](ai-number-recog-720p-demo.gif)
 
-# Use Guide
-At the beginning, code can not recognize numbers. User has to first teach the program.
-To do so:
-1. Press 'L' button to enter "Learning Mode"
-2. Draw a number and press corresponding number on the keyboard. If you need to erase screen, press 'E'.
-3. Repeat multiple numbers for all numbers. More data you provide, more accurate program will be.
-4. Still in "Learning Mode" press 'Enter' let computer learn from your data.
-4. After its done learning, exit "Learning Mode" by pressing 'L' again.
-5. Erase screen by pressing 'E' if necessary.
-6. Draw a number and press 'Enter' for program to show you what it recognizes the number to be.
+---
+
+## Installation Guide
+
+### Download Processing IDE
+Processing IDE lets you code 2D graphics. It only provides basic tools like drawing circles, rectangles, triangles, and pixels in any size and color. From these, you can create any graphic, including 3D if desired.
+
+Download the IDE here: https://processing.org/download
+
+### Running the Code
+After installing, open `recog-ai.pde` with Processing IDE, or open the IDE and paste the code from `recog-ai.java`.
+
+---
+
+## Usage Guide
+At first, the program can’t recognize numbers-you need to teach it.
+
+To teach the program:
+1. Press **L** to enter _Learning Mode_.
+2. Draw a number, then press the corresponding number key on the keyboard.
+3. To erase the screen, press **E**.
+4. Repeat this for many samples of all numbers you want to teach. More data means better accuracy.
+5. While still in _Learning Mode_, press **Enter** to let the computer learn from your data.
+6. Once learning is complete, press **L** again to exit _Learning Mode_.
+7. Erase the screen if needed with **E**.
+8. Draw a number and press **Enter**—the program will try to recognize it.
+
+---
 
 ## Controls
-- E : Erase screen
-- L : Enter or exit "Learning Mode"
-- 'Enter' : In "Learning Mode" it will use data provided to learn. In Non-"Learning Mode" it will try to recognize the number currently on drawn on the screen.
-- '0-9' : Tells computer which number you drew on the screen when in "Learning Mode"
+- **E** : Erase screen
+- **L** : Enter or exit _Learning Mode_
+- **Enter** :
+  - In _Learning Mode_: Train the model with provided data
+  - Outside _Learning Mode_: Recognize the currently drawn number
+- **0-9** : Specify which number you drew when in _Learning Mode_
