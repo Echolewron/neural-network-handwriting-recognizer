@@ -1,4 +1,4 @@
-# processing_ai
+# Handwritten Number Recognizer – Perceptron Neural Network 
 
 Number recognition AI (based on a neural network) built in the Processing IDE with Java.  
 Users can teach the computer to recognize numbers.  
